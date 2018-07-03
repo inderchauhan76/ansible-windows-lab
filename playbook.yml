@@ -1,0 +1,6 @@
+- name: Windows 
+  hosts: windows
+  gather_facts: true
+  become: true
+  roles:
+    - win_ad_install

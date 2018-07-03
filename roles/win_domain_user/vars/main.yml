@@ -1,0 +1,7 @@
+---
+# vars file for win_domain_user
+user_info:
+  - { name: james, firstname: James, surname: Jockey, password: redhat@123, groupname: dev, groupscope: domainlocal }
+  - { name: bill, firstname: Bill, surname: Gates, password: redhat@123, groupname: dev, groupscope: domainlocal }
+  - { name: mickey, firstname: Mickey, surname: Mouse, password: redhat@123, groupname: dev, groupscope: domainlocal }
+  - { name: donal, firstname: Donald, surname: Duck, password: redhat@123, groupname: dev, groupscope: domainlocal }
