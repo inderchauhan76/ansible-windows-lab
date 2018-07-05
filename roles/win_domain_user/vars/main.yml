@@ -5,3 +5,8 @@ user_info:
   - { name: bill, firstname: Bill, surname: Gates, password: redhat@123, groupname: dev, groupscope: domainlocal }
   - { name: mickey, firstname: Mickey, surname: Mouse, password: redhat@123, groupname: dev, groupscope: domainlocal }
   - { name: donal, firstname: Donald, surname: Duck, password: redhat@123, groupname: dev, groupscope: domainlocal }
+
+ad_groups:
+    - { group_name: 'qa', scope_name: 'global' }
+    - { group_name: dev, scope_name: 'domainlocal' }
+    - { group_name: prod, scope_name: 'domainlocal' }
